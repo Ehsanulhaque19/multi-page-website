@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+          <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+              <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+              </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+          </nav>
+      <h1>Our Certificate & online programe for 2021</h1>
+    </section>
+
+<!-- ......blog page content...... -->
+
+
+<section class="blog-content">
+  <div class="row">
+    <div class="blog-left">
+      <img src="images/certificate.jpg">
+      <h2>Our Certificate & online programe for 2021</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iusto fugiat velit temporibus eveniet amet quos laborum qui placeat quis!</p>
+      <br>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis quo, obcaecati ad excepturi dolorum repellendus, nulla similique soluta atque quos vitae quas. Perferendis at, repudiandae voluptate ut repellendus est minima id eaque? Fugit minus accusantium necessitatibus hic fugiat rerum praesentium.
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, atque ea laboriosam sint expedita doloribus fuga ipsum dolor quis laudantium voluptas, sequi, consequuntur vero officia reprehenderit dolorum? Error accusantium, placeat distinctio, corporis deserunt ipsam magni tempore corrupti quod optio numquam laboriosam est! Magni aliquid nemo nihil rerum nesciunt distinctio sequi reiciendis. Neque in minima fuga molestias iste expedita esse provident.</p>
+      </p>
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, atque ea laboriosam sint expedita doloribus fuga ipsum dolor quis laudantium voluptas, sequi, consequuntur vero officia reprehenderit dolorum? Error accusantium, placeat distinctio, corporis deserunt ipsam magni tempore corrupti quod optio numquam laboriosam est! Magni aliquid nemo nihil rerum nesciunt distinctio sequi reiciendis. Neque in minima fuga molestias iste expedita esse provident.</p>
+      <div class="comment-box">
+        <h3>Leave a Comment</h3>
+        <form class="comment-form">
+          <input type="text" placeholder="Enter Name">
+          <input type="email" placeholder="Enter Email">
+          <textarea rows="5" placeholder="Your comment"></textarea>
+          <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+      </div>
+
+
+
+    </div>
+    <div class="blog-right">
+      <h3>Post categories</h3>
+      <div>
+        <span>Business Analytics</span>
+        <span>21</span>
+      </div>
+      <div>
+        <span>Data science</span>
+        <span>28</span>
+      </div>
+      <div>
+        <span>Machine learning</span>
+        <span>15</span>
+      </div>
+      <div>
+        <span>Computer Science</span>
+        <span>45</span>
+      </div>
+      <div>
+        <span>Auto Cad</span>
+        <span>29</span>
+      </div>
+      <div>
+        <span>Journalism</span>
+        <span>24</span>
+      </div>
+      <div>
+        <span>Commerce</span>
+        <span>28</span>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<section class="footer">
+      <h4>About Us</h4>
+      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos ipsam doloremque fugiat adipisci <br> corrupti quam, veritatis sint optio alias aspernatur!</p>
+      <!-- <div class="icons">
+        <i class="fa fa-facebook-official"></i>
+        <i class="fa fa-twitter-square"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin-square"></i>
+      </div> -->
+      <p class="credit">Made by MD. Ehsanul Haque- frontend web developer</p>
+</section>
+
+
+
+    <!-- javascript for toogle menu -->
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+  </script>
+
+</body>
+</html>
